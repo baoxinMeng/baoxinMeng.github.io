@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on 化道两千</title>
+    <link>http://localhost:1313/docs/%E9%9D%A2%E8%AF%95%E9%A2%98/javascript/</link>
+    <description>Recent content in JavaScript on 化道两千</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Tue, 09 Apr 2024 17:16:36 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/%E9%9D%A2%E8%AF%95%E9%A2%98/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Promise</title>
+      <link>http://localhost:1313/docs/%E9%9D%A2%E8%AF%95%E9%A2%98/javascript/promise/</link>
+      <pubDate>Tue, 09 Apr 2024 17:16:36 +0800</pubDate>
+      <guid>http://localhost:1313/docs/%E9%9D%A2%E8%AF%95%E9%A2%98/javascript/promise/</guid>
+      <description>1. 说说对 Promise 的理解 Promise 是异步编程的解决方案，它是一个对象，可以获取异步操作的信息。Promise 大大改善了异步编程的困境，避免了回调地狱。 Promise 简单来说就是一个容器，里面保存着某个未来才会结束的事件（通常是一个异步操作）的结果。Promise 提供统一的 API，各种异步操作都可以用同样的方法进行处理。 Promise 有三种状态：pending, fulfilled, rejected，对象的状态不受外界影响，只有异步操作的结果可以决定当前的状态，这也是 Promise 名字的由来 — “承诺”；当把一个事情交给 Promise 时，它的状态就是 pending，任务完成状态转为 resolved，失败则转为 rejected。 Promise 实例有两种过程：pending - resolved 或 pending - rejected，一旦从 pending 状态转为其他状态后，就永远无法更改状态了 一旦状态改变，任何时候都可以得到这个结果，promise 状态改变后称为 resolved，如果改变已经发生了，我们在对 promise 对象添加回调函数，也会得到这个结果，这与事件完全不同，事件的特点是如果错过了再去监听，是得不到结果的 我们无法取消 Promise，一旦创建，它就会立即执行，无法中途取消，如果不设置回调函数，Promise 内部抛出的错误不会反映到外部，当处于 pending 状态时，无法得知目前进展到哪一阶段（刚刚开始还是即将结束） 状态的改变是通过 resolve() 和 reject() 两个函数来实现的，可以在异步操作结束后调用这两个函数改变 Promise 实例的状态。Promise 的原型上定义了一个 then 方法，使用该方法可以为两个状态的改变注册回调函数，这个回调函数属于微任务，会在本轮事件循环的末尾进行 Promise 构建出来的实例存在以下方法： then() —— 实例状态发生改变时的回调函数，第一个参数时 resolved 状态的回调函数，第二个参数是 rejected 状态的回调函数，then() 方法返回的是一个新的 Promise 实例，这就是 Promise 能链式书写的原因 catch() —— 是 then(null, rejection) 的别名，用于指定发生错误时的回调函数。Promise 对象的错误有“冒泡”属性，会一直向后传递知道被捕获为止。一般用 catch 代替 then 的第二个参数 finally() —— 指定不管 Promise 对象最后的状态如何，都会执行的操作 Promise 构造函数存在以下方法： Promise.</description>
+    </item>
+  </channel>
+</rss>

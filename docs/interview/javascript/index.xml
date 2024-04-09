@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on 化道两千</title>
+    <link>/docs/interview/javascript/</link>
+    <description>Recent content in JavaScript on 化道两千</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Tue, 09 Apr 2024 17:16:36 +0800</lastBuildDate>
+    <atom:link href="/docs/interview/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>说说对 Promise 的理解</title>
+      <link>/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9-promise-%E7%9A%84%E7%90%86%E8%A7%A3/</link>
+      <pubDate>Tue, 09 Apr 2024 17:16:36 +0800</pubDate>
+      <guid>/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9-promise-%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
+      <description>1. 介绍 Promise 意为承诺，是异步编程的一种解决方案，比传统的回调函数更合理、强大。&#xA;在以前处理多层异步操作时，我们通常会这样编写代码：&#xA;doSomething(function(result) { doSomethingElse(result, function(newResult) { doThridThing(newResult, function(finalResult) { console.log(&amp;#34;得到最终结果: &amp;#34; + finalResult); }, failureCallback); }, failureCallback); }, failureCallback);&#xD;上面的代码阅读困难，这就是经典的回调地狱。</description>
+    </item>
+  </channel>
+</rss>
