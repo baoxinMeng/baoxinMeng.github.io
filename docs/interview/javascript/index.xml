@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
-    <lastBuildDate>Thu, 11 Apr 2024 14:05:04 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2024 00:05:46 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/interview/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>说说对 Promise 的理解</title>
@@ -29,6 +29,13 @@
       <pubDate>Thu, 11 Apr 2024 14:05:04 +0800</pubDate>
       <guid>http://localhost:1313/docs/interview/javascript/%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</guid>
       <description>假设我们这里的操作都以默认数组 fruits 为对象：&#xA;const fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Banana&amp;#34;];&#xD;1.增 向数组末尾追加一个新元素 push() 向数组末尾追加一个新元素，返回新的数组长度。&#xA;const newLength = fruits.push(&amp;#34;Orange&amp;#34;); console.log(fruits); // [ &amp;#39;Apple&amp;#39;, &amp;#39;Banana&amp;#39;, &amp;#39;Orange&amp;#39; ] console.</description>
+    </item>
+    <item>
+      <title>JavaScript 的数据类型</title>
+      <link>http://localhost:1313/docs/interview/javascript/javascript-%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
+      <pubDate>Fri, 12 Apr 2024 00:05:46 +0800</pubDate>
+      <guid>http://localhost:1313/docs/interview/javascript/javascript-%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
+      <description>1. 前言 在 JavaScript 中，数据类型可以分为两种：&#xA;基本数据类型 复杂数据类型 两者的区别在于存储的方式不同。 2. 基本类型 基本类型主要为以下七种：Number，String，Boolean，Undefined，Null，Symbol，BigInt。&#xA;Number 数值最常见的整数类型格式是十进制，还可以设置八进制或十六进制。&#xA;let intNum = 55; // 十进制的 55 let octNum = 070; // 八进制的 56 let hexNum = 0xA; // 十六进制的 10 浮点类型必须包含小数点，还可以通过科学技术法表示。</description>
     </item>
   </channel>
 </rss>
