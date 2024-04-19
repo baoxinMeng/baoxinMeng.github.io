@@ -1,187 +1,107 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/example-post/</loc>
+    <loc>/blog/example-post/</loc>
     <lastmod>2023-09-07T16:27:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2023-09-07T16:21:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/javascript/</loc>
+    <loc>/docs/javascript/</loc>
     <lastmod>2023-09-07T16:12:37+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/</loc>
-    <lastmod>2023-09-07T16:06:50+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/</loc>
-    <lastmod>2024-04-09T17:16:36+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/javascript/js-%E5%9F%BA%E7%A1%80/</loc>
+    <loc>/docs/javascript/js-%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-09-07T16:13:18+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9-promise-%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
-    <lastmod>2024-04-09T17:16:36+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9%E9%97%AD%E5%8C%85%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
-    <lastmod>2024-04-11T01:47:55+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2024-04-11T14:05:04+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/javascript-%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
-    <lastmod>2024-04-12T00:05:46+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2023-09-07T16:12:03+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
-    <lastmod>2023-09-07T17:19:07+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2023-09-07T16:33:54+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/contributors/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-</urlset>
-=======
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/blog/example-post/</loc>
-    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2023-09-07T16:21:44+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/javascript/</loc>
-    <lastmod>2023-09-07T16:12:37+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/javascript/js-%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-09-07T16:13:18+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/git/</loc>
+    <loc>/docs/git/</loc>
     <lastmod>2023-09-07T16:06:50+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/git/git-github-%E5%9F%BA%E7%A1%80/</loc>
+    <loc>/docs/git/git-github-%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2024-04-18T16:56:24+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/</loc>
+    <loc>/docs/git/%E9%94%99%E8%AF%AF%E6%B1%87%E6%80%BB/</loc>
+    <lastmod>2024-04-19T16:08:37+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/docs/interview/</loc>
     <lastmod>2023-09-07T16:06:50+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/</loc>
+    <loc>/docs/interview/javascript/</loc>
     <lastmod>2024-04-09T17:16:36+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9-promise-%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
+    <loc>/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9-promise-%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
     <lastmod>2024-04-09T17:16:36+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9%E9%97%AD%E5%8C%85%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
+    <loc>/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9%E9%97%AD%E5%8C%85%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
     <lastmod>2024-04-11T01:47:55+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
+    <loc>/docs/interview/javascript/%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2024-04-11T14:05:04+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/javascript/javascript-%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
+    <loc>/docs/interview/javascript/javascript-%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
     <lastmod>2024-04-12T00:05:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/css/</loc>
+    <loc>/docs/interview/css/</loc>
     <lastmod>2024-04-19T15:02:29+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/interview/css/%E5%A6%82%E4%BD%95%E7%94%A8-css-%E7%BB%98%E5%88%B6%E4%B8%89%E8%A7%92%E5%BD%A2/</loc>
+    <loc>/docs/interview/css/%E5%A6%82%E4%BD%95%E7%94%A8-css-%E7%BB%98%E5%88%B6%E4%B8%89%E8%A7%92%E5%BD%A2/</loc>
     <lastmod>2024-04-19T14:55:11+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>/docs/</loc>
     <lastmod>2023-09-07T16:12:03+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
+    <loc>/privacy/</loc>
     <lastmod>2023-09-07T17:19:07+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2023-09-07T16:33:54+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/contributors/</loc>
+    <loc>/contributors/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 </urlset>
->>>>>>> c1365a7 (添加 css 与 git)

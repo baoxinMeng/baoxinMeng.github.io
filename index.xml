@@ -2,89 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>化 道 两 千 on 化道两千</title>
-    <link>http://localhost:1313/</link>
+    <link>/</link>
     <description>Recent content in 化 道 两 千 on 化道两千</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
-<<<<<<< HEAD
-    <lastBuildDate>Fri, 12 Apr 2024 00:05:46 +0800</lastBuildDate>
-=======
-    <lastBuildDate>Fri, 19 Apr 2024 14:55:11 +0800</lastBuildDate>
->>>>>>> c1365a7 (添加 css 与 git)
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2024 16:08:37 +0800</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example Post</title>
-      <link>http://localhost:1313/blog/example-post/</link>
+      <link>/blog/example-post/</link>
       <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/example-post/</guid>
+      <guid>/blog/example-post/</guid>
       <description>You can use blog posts for announcing product updates and features.</description>
     </item>
     <item>
       <title>JS 基础</title>
-      <link>http://localhost:1313/docs/javascript/js-%E5%9F%BA%E7%A1%80/</link>
+      <link>/docs/javascript/js-%E5%9F%BA%E7%A1%80/</link>
       <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
-      <guid>http://localhost:1313/docs/javascript/js-%E5%9F%BA%E7%A1%80/</guid>
+      <guid>/docs/javascript/js-%E5%9F%BA%E7%A1%80/</guid>
       <description>Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.</description>
     </item>
     <item>
-<<<<<<< HEAD
-=======
       <title>Git &amp; Github 基础</title>
-      <link>http://localhost:1313/docs/git/git-github-%E5%9F%BA%E7%A1%80/</link>
+      <link>/docs/git/git-github-%E5%9F%BA%E7%A1%80/</link>
       <pubDate>Thu, 18 Apr 2024 16:56:24 +0800</pubDate>
-      <guid>http://localhost:1313/docs/git/git-github-%E5%9F%BA%E7%A1%80/</guid>
+      <guid>/docs/git/git-github-%E5%9F%BA%E7%A1%80/</guid>
       <description>Git 工作流 sequenceDiagram&#xD;participant A as 工作区&#xD;participant B as 暂存区&#xD;participant C as 本地仓库&#xD;participant D as 远程仓库&#xD;D--&gt;&gt;A: 1.</description>
     </item>
     <item>
->>>>>>> c1365a7 (添加 css 与 git)
+      <title>错误汇总</title>
+      <link>/docs/git/%E9%94%99%E8%AF%AF%E6%B1%87%E6%80%BB/</link>
+      <pubDate>Fri, 19 Apr 2024 16:08:37 +0800</pubDate>
+      <guid>/docs/git/%E9%94%99%E8%AF%AF%E6%B1%87%E6%80%BB/</guid>
+      <description>1.&#xA;ssh: connect to host github.com port 22: Connection refused fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists.</description>
+    </item>
+    <item>
       <title>说说对 Promise 的理解</title>
-      <link>http://localhost:1313/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9-promise-%E7%9A%84%E7%90%86%E8%A7%A3/</link>
+      <link>/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9-promise-%E7%9A%84%E7%90%86%E8%A7%A3/</link>
       <pubDate>Tue, 09 Apr 2024 17:16:36 +0800</pubDate>
-      <guid>http://localhost:1313/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9-promise-%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
+      <guid>/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9-promise-%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
       <description>1. 介绍 Promise 意为承诺，是异步编程的一种解决方案，比传统的回调函数更合理、强大。&#xA;在以前处理多层异步操作时，我们通常会这样编写代码：&#xA;doSomething(function(result) { doSomethingElse(result, function(newResult) { doThridThing(newResult, function(finalResult) { console.log(&amp;#34;得到最终结果: &amp;#34; + finalResult); }, failureCallback); }, failureCallback); }, failureCallback);&#xD;上面的代码阅读困难，这就是经典的回调地狱。</description>
     </item>
     <item>
       <title>说说对闭包的理解</title>
-      <link>http://localhost:1313/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9%E9%97%AD%E5%8C%85%E7%9A%84%E7%90%86%E8%A7%A3/</link>
+      <link>/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9%E9%97%AD%E5%8C%85%E7%9A%84%E7%90%86%E8%A7%A3/</link>
       <pubDate>Thu, 11 Apr 2024 01:47:55 +0800</pubDate>
-      <guid>http://localhost:1313/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9%E9%97%AD%E5%8C%85%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
+      <guid>/docs/interview/javascript/%E8%AF%B4%E8%AF%B4%E5%AF%B9%E9%97%AD%E5%8C%85%E7%9A%84%E7%90%86%E8%A7%A3/</guid>
       <description>1. 介绍 闭包就是一个函数与其词法环境（lexical environment）的引用绑在一起。&#xA;也就是说，闭包就是能够读取其他函数内部变量的函数；或是子函数在外调用，子函数所在的父函数的作用域不会被释放。&#xA;在 JavaScript 中，闭包会在满足条件的函数创建时被创建。下面给出一个简单的例子：&#xA;function init() { let name = &amp;#34;Mozilla&amp;#34;; // init 内部的局部变量 function displayName() { // 创建了一个闭包，displayName 是内层函数 alert(name); // 使用了父函数中声明的变量 } displayName(); // 使用闭包 } init();&#xD;displayName() 虽然没有自己的局部变量，但是由于闭包的特性，它可以访问到外部函数的局部变量。</description>
     </item>
     <item>
       <title>数组的常用方法</title>
-      <link>http://localhost:1313/docs/interview/javascript/%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</link>
+      <link>/docs/interview/javascript/%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</link>
       <pubDate>Thu, 11 Apr 2024 14:05:04 +0800</pubDate>
-      <guid>http://localhost:1313/docs/interview/javascript/%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</guid>
+      <guid>/docs/interview/javascript/%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</guid>
       <description>假设我们这里的操作都以默认数组 fruits 为对象：&#xA;const fruits = [&amp;#34;Apple&amp;#34;, &amp;#34;Banana&amp;#34;];&#xD;1.增 向数组末尾追加一个新元素 push() 向数组末尾追加一个新元素，返回新的数组长度。&#xA;const newLength = fruits.push(&amp;#34;Orange&amp;#34;); console.log(fruits); // [ &amp;#39;Apple&amp;#39;, &amp;#39;Banana&amp;#39;, &amp;#39;Orange&amp;#39; ] console.</description>
     </item>
     <item>
       <title>JavaScript 的数据类型</title>
-      <link>http://localhost:1313/docs/interview/javascript/javascript-%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
+      <link>/docs/interview/javascript/javascript-%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
       <pubDate>Fri, 12 Apr 2024 00:05:46 +0800</pubDate>
-      <guid>http://localhost:1313/docs/interview/javascript/javascript-%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
+      <guid>/docs/interview/javascript/javascript-%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
       <description>1. 前言 在 JavaScript 中，数据类型可以分为两种：&#xA;基本数据类型 复杂数据类型 两者的区别在于存储的方式不同。 2. 基本类型 基本类型主要为以下七种：Number，String，Boolean，Undefined，Null，Symbol，BigInt。&#xA;Number 数值最常见的整数类型格式是十进制，还可以设置八进制或十六进制。&#xA;let intNum = 55; // 十进制的 55 let octNum = 070; // 八进制的 56 let hexNum = 0xA; // 十六进制的 10 浮点类型必须包含小数点，还可以通过科学技术法表示。</description>
     </item>
     <item>
-<<<<<<< HEAD
-=======
       <title>如何用 CSS 绘制三角形</title>
-      <link>http://localhost:1313/docs/interview/css/%E5%A6%82%E4%BD%95%E7%94%A8-css-%E7%BB%98%E5%88%B6%E4%B8%89%E8%A7%92%E5%BD%A2/</link>
+      <link>/docs/interview/css/%E5%A6%82%E4%BD%95%E7%94%A8-css-%E7%BB%98%E5%88%B6%E4%B8%89%E8%A7%92%E5%BD%A2/</link>
       <pubDate>Fri, 19 Apr 2024 14:55:11 +0800</pubDate>
-      <guid>http://localhost:1313/docs/interview/css/%E5%A6%82%E4%BD%95%E7%94%A8-css-%E7%BB%98%E5%88%B6%E4%B8%89%E8%A7%92%E5%BD%A2/</guid>
+      <guid>/docs/interview/css/%E5%A6%82%E4%BD%95%E7%94%A8-css-%E7%BB%98%E5%88%B6%E4%B8%89%E8%A7%92%E5%BD%A2/</guid>
       <description>1. border CSS 边框是由上下左右四个方向共同合成的一个框，当盒子长宽为 0 时，它的表现是如何呢？&#xA;&amp;lt;div class=&amp;#34;div1&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;&#xD;.div1 { width: 0; height: 0; background-color: #64c4ed; border-top: 250px solid #f6d365; border-left: 250px solid #a4d7e1; border-right: 250px solid #ed1250; border-bottom: 250px solid #414141; }&#xD;div1 的表现如下： 此时我们可以隐藏其中的三个边框，只让一个边框显示。就可以做到绘制一个三角形了:</description>
     </item>
     <item>
->>>>>>> c1365a7 (添加 css 与 git)
       <title>Privacy Policy</title>
-      <link>http://localhost:1313/privacy/</link>
+      <link>/privacy/</link>
       <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
-      <guid>http://localhost:1313/privacy/</guid>
-<<<<<<< HEAD
-      <description></description>
-=======
+      <guid>/privacy/</guid>
       <description>1</description>
->>>>>>> c1365a7 (添加 css 与 git)
     </item>
   </channel>
 </rss>
