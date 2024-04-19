@@ -2,12 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>面试题 on 化道两千</title>
+<<<<<<< HEAD
     <link>http://localhost:1313/docs/interview/</link>
+=======
+    <link>/docs/interview/</link>
+>>>>>>> c1365a7 (添加 css 与 git)
     <description>Recent content in 面试题 on 化道两千</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
     <lastBuildDate></lastBuildDate>
+<<<<<<< HEAD
     <atom:link href="http://localhost:1313/docs/interview/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <atom:link href="/docs/interview/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> c1365a7 (添加 css 与 git)
   </channel>
 </rss>

@@ -103,18 +103,30 @@
   --sl-z-index-toc: 4;
   --sl-z-index-menu: 5;
   --sl-z-index-navbar: 10;
+<<<<<<< HEAD
   --sl-z-index-skiplink: 20
+=======
+  --sl-z-index-skiplink: 20
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 :root {
   --purple-hsl: 255, 60%, 60%;
+<<<<<<< HEAD
   --overlay-blurple: hsla(var(--purple-hsl), .2)
+=======
+  --overlay-blurple: hsla(var(--purple-hsl), .2)
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 :root {
   --ec-brdRad: 0px;
   --ec-brdWd: 1px;
+<<<<<<< HEAD
   --ec-brdCol: 
+=======
+  --ec-brdCol: 
+>>>>>>> c1365a7 (添加 css 与 git)
 color-mix(in srgb, var(--sl-color-gray-5), transparent 25%);
   --ec-codeFontFml: var(--__sl-font-mono);
   --ec-codeFontSize: var(--sl-text-code);
@@ -164,17 +176,30 @@ color-mix(in srgb, var(--sl-color-gray-5), transparent 25%);
   --ec-frm-edTabsMargBlkStart: 0;
   --ec-frm-edTabBrdRad: 0px;
   --ec-frm-edTabBarBg: var(--sl-color-black);
+<<<<<<< HEAD
   --ec-frm-edTabBarBrdCol: 
 color-mix(in srgb, var(--sl-color-gray-5), transparent 25%);
   --ec-frm-edTabBarBrdBtmCol: 
 color-mix(in srgb, var(--sl-color-gray-5), transparent 25%);
   --ec-frm-edBg: var(--sl-color-gray-6);
   --ec-frm-trmTtbDotsFg: 
+=======
+  --ec-frm-edTabBarBrdCol: 
+color-mix(in srgb, var(--sl-color-gray-5), transparent 25%);
+  --ec-frm-edTabBarBrdBtmCol: 
+color-mix(in srgb, var(--sl-color-gray-5), transparent 25%);
+  --ec-frm-edBg: var(--sl-color-gray-6);
+  --ec-frm-trmTtbDotsFg: 
+>>>>>>> c1365a7 (添加 css 与 git)
 color-mix(in srgb, var(--sl-color-gray-5), transparent 25%);
   --ec-frm-trmTtbDotsOpa: 0.75;
   --ec-frm-trmTtbBg: var(--sl-color-black);
   --ec-frm-trmTtbFg: var(--sl-color-text);
+<<<<<<< HEAD
   --ec-frm-trmTtbBrdBtmCol: 
+=======
+  --ec-frm-trmTtbBrdBtmCol: 
+>>>>>>> c1365a7 (添加 css 与 git)
 color-mix(in srgb, var(--sl-color-gray-5), transparent 25%);
   --ec-frm-trmBg: var(--sl-color-gray-6);
   --ec-frm-inlBtnFg: var(--sl-color-text);
@@ -12445,12 +12470,20 @@ body .toggle-light {
 
 .expressive-code .ec-line.mark {
   --tmLineBgCol: var(--ec-tm-markBg);
+<<<<<<< HEAD
   --tmLineBrdCol: var(--ec-tm-markBrdCol)
+=======
+  --tmLineBrdCol: var(--ec-tm-markBrdCol)
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .ec-line.ins {
   --tmLineBgCol: var(--ec-tm-insBg);
+<<<<<<< HEAD
   --tmLineBrdCol: var(--ec-tm-insBrdCol)
+=======
+  --tmLineBrdCol: var(--ec-tm-insBrdCol)
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .ec-line.ins::before {
@@ -12459,7 +12492,11 @@ body .toggle-light {
 
 .expressive-code .ec-line.del {
   --tmLineBgCol: var(--ec-tm-delBg);
+<<<<<<< HEAD
   --tmLineBrdCol: var(--ec-tm-delBrdCol)
+=======
+  --tmLineBrdCol: var(--ec-tm-delBrdCol)
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .ec-line.del::before {
@@ -12480,17 +12517,29 @@ body .toggle-light {
 
 .expressive-code .ec-line mark, .expressive-code .ec-line .mark {
   --tmInlineBgCol: var(--ec-tm-markBg);
+<<<<<<< HEAD
   --tmInlineBrdCol: var(--ec-tm-markBrdCol)
+=======
+  --tmInlineBrdCol: var(--ec-tm-markBrdCol)
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .ec-line ins {
   --tmInlineBgCol: var(--ec-tm-insBg);
+<<<<<<< HEAD
   --tmInlineBrdCol: var(--ec-tm-insBrdCol)
+=======
+  --tmInlineBrdCol: var(--ec-tm-insBrdCol)
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .ec-line del {
   --tmInlineBgCol: var(--ec-tm-delBg);
+<<<<<<< HEAD
   --tmInlineBrdCol: var(--ec-tm-delBrdCol)
+=======
+  --tmInlineBrdCol: var(--ec-tm-delBrdCol)
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .ec-line mark, .expressive-code .ec-line .mark, .expressive-code .ec-line ins, .expressive-code .ec-line del {
@@ -12511,14 +12560,22 @@ body .toggle-light {
   margin-inline-start: 0;
   padding-inline-start: 0;
   --tmBrdL: 0px;
+<<<<<<< HEAD
   --tmRadL: 0
+=======
+  --tmRadL: 0
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .ec-line mark.open-end, .expressive-code .ec-line .open-end.mark, .expressive-code .ec-line ins.open-end, .expressive-code .ec-line del.open-end {
   margin-inline-end: 0;
   padding-inline-end: 0;
   --tmBrdR: 0px;
+<<<<<<< HEAD
   --tmRadR: 0
+=======
+  --tmRadR: 0
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .ec-line mark::before, .expressive-code .ec-line .mark::before, .expressive-code .ec-line ins::before, .expressive-code .ec-line del::before {
@@ -12557,7 +12614,11 @@ body .toggle-light {
   content: '\a0'; }
 
 .expressive-code .frame.has-title:not(.is-terminal) {
+<<<<<<< HEAD
   --button-spacing: calc(1.9rem + 2 * (var(--ec-uiPadBlk) + var(--ec-frm-edActTabIndHt)))
+=======
+  --button-spacing: calc(1.9rem + 2 * (var(--ec-uiPadBlk) + var(--ec-frm-edActTabIndHt)))
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .frame.has-title:not(.is-terminal) .title {
@@ -12597,7 +12658,11 @@ body .toggle-light {
 
 .expressive-code .frame.is-terminal {
   --button-spacing: calc(1.9rem + var(--ec-brdWd) + 2 * var(--ec-uiPadBlk));
+<<<<<<< HEAD
   --code-background: var(--ec-frm-trmBg)
+=======
+  --code-background: var(--ec-frm-trmBg)
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .frame.is-terminal .header {
@@ -12830,7 +12895,11 @@ body .toggle-light {
   --ec-frm-inlBtnBrd: var(--sl-color-text);
   --ec-frm-inlBtnBrdOpa: 0.4;
   --ec-frm-tooltipSuccessBg: #158744;
+<<<<<<< HEAD
   --ec-frm-tooltipSuccessFg: white
+=======
+  --ec-frm-tooltipSuccessFg: white
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 .expressive-code .ec-line span[style^='--']:not([class]) {
@@ -12862,7 +12931,11 @@ body .toggle-light {
     --ec-frm-edBg: var(--sl-color-gray-7);
     --ec-frm-trmTtbBg: var(--sl-color-gray-6);
     --ec-frm-trmBg: var(--sl-color-gray-7);
+<<<<<<< HEAD
     --ec-frm-tooltipSuccessBg: #078662
+=======
+    --ec-frm-tooltipSuccessBg: #078662
+>>>>>>> c1365a7 (添加 css 与 git)
     ; }
   :root:not([data-bs-theme='dark']) .expressive-code .ec-line span[style^='--']:not([class]) {
     color: var(1, inherit);
@@ -12892,7 +12965,11 @@ body .toggle-light {
   --ec-frm-edBg: var(--sl-color-gray-7);
   --ec-frm-trmTtbBg: var(--sl-color-gray-6);
   --ec-frm-trmBg: var(--sl-color-gray-7);
+<<<<<<< HEAD
   --ec-frm-tooltipSuccessBg: #078662
+=======
+  --ec-frm-tooltipSuccessBg: #078662
+>>>>>>> c1365a7 (添加 css 与 git)
 ; }
 
 :root[data-bs-theme='light'] .expressive-code .ec-line span[style^='--']:not([class]), .expressive-code[data-bs-theme='light'] .ec-line span[style^='--']:not([class]) {
